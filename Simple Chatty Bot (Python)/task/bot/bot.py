@@ -5,4 +5,7 @@ What a great name you have, {input()}!
 Let me guess your age.
 Enter remainders of dividing your age by 3, 5 and 7.
 Your age is {(int(input()) * 70 + int(input()) * 21 + int(input()) * 15) % 105}; that's a good time to start programming!
-""")
+Now I will prove to you that I can count to any number you want.""")
+for i in range(int(input()) + 1):
+    print(f"{i} !")
+print("Completed, have a nice day!")
